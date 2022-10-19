@@ -32,18 +32,12 @@ using oracle 11g express edition
     ```
  6. try some action
     ```sql
-    SELECT JOB_TITLE, DEPARTMENT_NAME, LAST_NAME, START_DATE 
-    FROM JOB_HISTORY JOIN JOBS USING (JOB_ID) JOIN DEPARTMENTS 
-    USING (DEPARTMENT_ID) JOIN  EMPLOYEES USING (EMPLOYEE_ID) 
-    WHERE TO_CHAR(START_DATE,'YYYY') BETWEEN 2000 AND 2005;    
+    select MAX(SALARY) from EMPLOYEES ;
     ``` 
     ```
-    JOB_TITLE                   DEPARTMENT_NAME    LAST_NAME    START_DATE
-    ___________________________ __________________ ____________ _____________
-    Programmer                  IT                 De Haan      13-JAN-01
-    Accounting Manager          Accounting         Kochhar      28-OCT-01
-    Marketing Representative    Marketing          Hartstein    17-FEB-04
-    Public Accountant           Executive          Whalen       01-JUL-02
+     MAX(SALARY)
+______________
+         24000
     ```
 
 
