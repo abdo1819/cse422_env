@@ -11,22 +11,32 @@ using oracle 11g express edition
 
 # database environment
 1. clone or download this repo
-    > git clone https://github.com/abdo1819/cse422_env
+    ```bash
+    git clone https://github.com/abdo1819/cse422_env
+    ```
 2. start docker container 
     * switch to repo directory
-    > cd cse422_env
-    > docker-compose up -d
+    ```bash
+    cd cse422_env
+    docker-compose up -d
+    ```
 4. wait little bit or check the container log
-    > docker compose logs
+    ```bash
+    docker compose logs
+    ```
 3. connect to database
-    * switch to sqlcl directory
+    * switch to sqlcl directory (downloaded above ⬆️)
     * connect to hr schema
-    > .\sql hr/hr@localhost:49161/xe
+    ```bash
+    .\sql hr/hr@localhost:49161/xe
+    ```
 
 
 # trouble shouting
 ## hr schame is locked
 * connect to sys schema
-    > .\sql sys/oracle@localhost:49161/xe as sysdba
-    > alter user hr account unlock;
+    ```
+    .\sql sys/oracle@localhost:49161/xe as sysdba
+    alter user hr account unlock;
+    ```
 
