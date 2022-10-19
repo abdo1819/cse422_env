@@ -1,0 +1,9 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  oracle-db:
+    image: oracleinanutshell/oracle-xe-11g
+    ports:
+      - "49161:1521"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
