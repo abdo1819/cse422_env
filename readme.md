@@ -11,7 +11,7 @@ using oracle 11g express edition
 
 # database environment
 1. clone or download this repo
-    > https://github.com/abdo1819/cse422_env
+    > git clone https://github.com/abdo1819/cse422_env
 2. start docker container 
     > docker-compose up -d
 4. wait little bit or check the container log
