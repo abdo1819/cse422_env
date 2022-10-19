@@ -32,7 +32,7 @@ using oracle 11g express edition
     ```
 
 
-# trouble shouting
+# troubleshooting
 ## hr schame is locked
 * connect to sys schema
     ```
