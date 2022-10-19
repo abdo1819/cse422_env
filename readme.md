@@ -45,6 +45,14 @@ using oracle 11g express edition
          24000
     ```
 
+7. [optional] connect with vscode to exucte your queries
+    * install [oracle extention](https://marketplace.visualstudio.com/items?itemName=Oracle.oracledevtools)
+    * add coneection info
+    ![image](https://user-images.githubusercontent.com/13080469/196804794-5ed8d6c7-b6c0-40a2-816d-1de5846a416b.png)
+    * run your query
+    * ![image](https://user-images.githubusercontent.com/13080469/196804981-5630535d-bdba-4943-bb5e-a34043b231bc.png)
+
+     
 
 # troubleshooting
 ## hr schame is locked
