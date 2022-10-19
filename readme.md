@@ -25,7 +25,7 @@ using oracle 11g express edition
     docker compose logs
     ```
 3. connect to database
-    * switch to sqlcl directory (downloaded above ⬆️)
+    * switch to sqlcl directory (downloaded above [⬆️](#prerequests))
     * connect to hr schema
     ```bash
     .\sql hr/hr@localhost:49161/xe
