@@ -33,10 +33,11 @@ using oracle 11g express edition
  6. try some action
     ```sql
     select MAX(SALARY) from EMPLOYEES ;
-    ``` 
+    ```
+    
     ```
      MAX(SALARY)
-______________
+    ______________
          24000
     ```
 
