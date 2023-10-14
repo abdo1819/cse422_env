@@ -26,6 +26,14 @@ using oracle 11g express edition
 8. connect with vscode to execute your queries
     * install [oracle extention](https://marketplace.visualstudio.com/items?itemName=Oracle.oracledevtools)
     * add coneection info
+   ```
+   Port number : 49161
+   Service name : xe
+   Role : Default
+   User name : HR
+   Password : hr
+   
+   ```
     ![image](https://user-images.githubusercontent.com/13080469/196804794-5ed8d6c7-b6c0-40a2-816d-1de5846a416b.png)
     * run your query
     *
