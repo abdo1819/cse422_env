@@ -36,7 +36,8 @@ using oracle 11g express edition
    ```
     ![image](https://user-images.githubusercontent.com/13080469/196804794-5ed8d6c7-b6c0-40a2-816d-1de5846a416b.png)
     * run your query
-    *
+    * create .sql file
+    * make sure current language is set to `Oracle-SQL and PLSQL`
     ```sql
     select MAX(SALARY) from EMPLOYEES ;
     ```
